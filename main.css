@@ -1,0 +1,87 @@
+html {
+    color: #000000;
+    font-family: "times new roman", "sans-serif";
+    font-size: 20px;
+
+}
+
+img {
+    padding: 0px 15px 0px 15px;
+}
+
+.main_nav {
+    text-transform: capitalize;
+    text-decoration-color: royalblue;
+    font-size: 120%;
+}
+
+a:visited {
+    color: white;
+}
+
+.nav {
+    text-transform: uppercase;
+    font-size: 75%
+}
+
+.nav a:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: greenyellow
+}
+
+p {
+    border-width: thick;
+    text-align: left;
+    font-size: 150%
+}
+
+body {
+    background-image: url(untitledfolder/airplane%20copy.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #FFFFFF
+}
+
+h1 {
+    border-style: solid;
+    border-width: thick;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+h2 {
+    text-align: center
+}
+h3 {
+    text-align: center;
+}
+.section-quote {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    float: right;
+    width: 170px;
+    height: 375px;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+

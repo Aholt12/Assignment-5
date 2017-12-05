@@ -1,0 +1,181 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Aviation Academy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .cancelbtn {
+            padding: 14px 20px;
+            background-color: #f44336;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        @media screen and (max-width: 300px) {
+            .cancelbtn,
+            .signupbtn {
+                width: 100%;
+            }
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-snapchat-ghost {
+            background: #fffc00;
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        <style>#home1 {
+            display: inline-block;
+            margin-left: 600px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: orangered;
+        }
+
+        #div2 {
+            float: right;
+        }
+        #header4 {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="SignUp.html">Sign Up</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Costs.html">Costs</a></li>
+    </ul>
+
+
+    <h1>Sign Up</h1>
+    <form action="/action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+            <label><b> First Name</b></label>
+            <input type="text" placeholder="Enter First Name" name="name" required>
+            <label><b> Last Name</b></label>
+            <input type="text" placeholder="Enter Last Name" name="name" required>
+            <label><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </div>
+    </form>
+
+<div>
+        <h3 id="header4"> If you already have an account, Sign In!</h3> <br> <br>
+        <label> User Name: <input type="text" name="uname" id="uname"></label> <br> <br>
+        <label> Password:</label> <br>
+        <input type="password"> <br> <br>
+        <input type="Submit" value="Sign In"> <br> <br>
+
+        <h4>Follow us on our Social Media!</h4>
+
+
+    </div>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-snapchat-ghost"></a>
+
+</body>
+
+</html>
